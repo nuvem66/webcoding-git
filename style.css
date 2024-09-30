@@ -1,0 +1,187 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+*, html{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+html{
+    height: 100%;
+    width: auto;
+}
+#bheader, #bmain{
+    margin: 0 14vw;
+}
+#bheader{
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 1.5vw 0;
+    background-color: white;
+    /*Fixed menu at the top of the screen. 
+    For it to work, add padding-top: 7.625vw; 
+    to #bmain */
+    /*min-width: 72vw;
+    position: fixed;*/
+}
+#bheader, #bheader section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+#bheader form.search input{
+    padding: .5rem .8rem;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+ul.nav-ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+a.nav-a{
+    text-decoration: none;
+    color: black;
+}
+a.nav-a-white{
+    text-decoration: none;
+    color: white;
+}
+#bmain{
+    padding: 2vw 0;
+    /*padding-top: 7.625vw;*/
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+#bmain section{
+    /*margin: 1.5vw 0;*/
+}
+#bmain section.product-info, .product-info{
+    display: flex;
+    gap: 8vw;
+    flex-direction: row;
+}
+section.product-info aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    width: 50%;
+}
+section.product-info figure {
+    width: 50%;
+}
+section.product-info figure img{
+    width: 100%;
+}
+section.product-info-vertical, .product-info-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+section.product-info-vertical header.centered{
+    width: 65%;
+    text-align: center;
+}
+main.specs-grid{
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.specs-column{
+    font-weight: bold;
+    text-align: center;
+}
+img.specs-img{
+    width: 100%;
+}
+section.banner{
+    background-color: #2e69ff;
+    color: white;
+    max-width: 100%;
+    /*border-radius: 10px;*/
+    display: flex;
+    gap: 3vw;
+    padding: 5vw;
+}
+section.banner aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+#bfooter{
+    margin-top: 2vw;
+    padding: 3vw 14vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1.product-name, .section-title{
+    font-size: 54px;
+    font-weight: bold;
+}
+h2.banner-title{
+    font-size: 54px;
+    font-weight: bold;
+}
+h2.price-tag{
+    font-size: 64px;
+    color: hsl(223, 100%, 59%);
+    font-weight: bold;
+}
+
+p.blue-subtitle{
+    color: hsl(223, 100%, 59%);
+    font-weight: bold;
+}
+button.buy-now{
+    background-color: hsl(223, 100%, 59%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1rem 4rem;
+    width: fit-content;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+small.pix-condition{
+    font-size: 10px;
+    color: rgb(148, 148, 148);
+}
+button.buy-now:active{
+    background-color: hsl(223, 100%, 74%);
+}
+#bolt{
+    height: 2rem;
+    filter: invert(99%) sepia(84%) saturate(0%) hue-rotate(141deg) brightness(116%) contrast(100%);
+}
+#whatsapp-icon{
+    height: 2em;
+    filter: invert(99%) sepia(84%) saturate(0%) hue-rotate(141deg) brightness(116%) contrast(100%);
+}
