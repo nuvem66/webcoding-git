@@ -43,6 +43,7 @@ html{
 }
 #bheader, #bheader section{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 40px;
 }
@@ -65,18 +66,18 @@ a.nav-a-white{
     color: white;
 }
 #bmain{
+    /*
     padding: 2vw 0;
-    /*padding-top: 7.625vw;*/
+    padding-top: 7.625vw; -- fixed header
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    */
 }
-#bmain section{
-    /*margin: 1.5vw 0;*/
-}
+
 #bmain section.product-info, .product-info{
     display: flex;
-    gap: 4vw;
+    gap: 8vw;
     flex-direction: row;
 }
 section.product-info aside{
@@ -87,7 +88,7 @@ section.product-info aside{
     width: 50%;
 }
 section.product-info figure {
-    width: 100%;
+    width: 50%;
 }
 section.product-info figure img{
     width: 100%;
@@ -109,11 +110,10 @@ main.specs-grid{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 5%;
 }
 div.specs-column{
+    font-weight: bold;
     text-align: center;
-    width: auto;
 }
 img.specs-img{
     width: 100%;
@@ -125,7 +125,7 @@ section.banner{
     /*border-radius: 10px;*/
     display: flex;
     gap: 3vw;
-    padding: 2vw;
+    padding: 5vw;
 }
 section.banner aside{
     display: flex;
@@ -134,7 +134,6 @@ section.banner aside{
     align-items: start;
 }
 #bfooter{
-    margin-top: 5vw;
     padding: 3vw 14vw;
     background-color: black;
     display: flex;
@@ -142,15 +141,15 @@ section.banner aside{
     justify-content: space-between;
 }
 h1.product-name, .section-title{
-    font-size: 50px;
+    font-size: 54px;
     font-weight: bold;
 }
 h2.banner-title{
-    font-size: 50px;
+    font-size: 54px;
     font-weight: bold;
 }
 h2.price-tag{
-    font-size: 50px;
+    font-size: 64px;
     color: hsl(223, 100%, 59%);
     font-weight: bold;
 }
@@ -185,3 +184,6 @@ button.buy-now:active{
     height: 2em;
     filter: invert(99%) sepia(84%) saturate(0%) hue-rotate(141deg) brightness(116%) contrast(100%);
 }
+div.spacer {
+    height: 8rem;
+}   
