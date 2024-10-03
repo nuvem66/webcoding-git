@@ -1,0 +1,219 @@
+/* Cores
+Cinza Claro: #7F7F7F
+Azul: #2E68FF
+Preto: #000000
+Azul Claro: #F4F9FF
+*/
+@keyframes fadeIn-banner-button {
+  0% { background-color: white }
+  100% { background-color: hsl(0, 0%, 96%) }
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+header{
+    font-size: 20px;
+    color:black;
+    padding: 46px 150px;;
+    justify-content: space-between;
+}
+header, header section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 40px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header section ul{
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    display: flex;
+    align-items: center;
+}
+img.logo{
+    height: 45px;
+    width: auto;
+    cursor: pointer;  
+}
+img.shopping-car{
+    height: 35px;
+}
+a.nav-a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;   
+}
+form.search input{
+    color: #343434;
+    background-color: #f7f9ff;
+    width: 200px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+
+    }
+main{
+    padding: 50px 150px 100px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+section.product-info{
+    display:flex;
+    gap: 30px;
+}
+section.product-info-vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+table.specs{
+    border-spacing: 0 8px;
+}
+table.specs td{
+    height: 80px;
+    width: auto;
+    text-align: center;
+    background-color: #f7f9ff;
+}
+table.specs td:first-child{
+    width: 40%;
+    background-color: #2E68FF;
+    color: white;
+    font-weight: bold;
+}
+section.product-info aside{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+h2.price-tag{
+    font-size: 50px;
+    color: #2E68FF;
+}
+aside button.buy-now{
+    background-color: #2E68FF;
+    color: white;
+    font-weight: bold;
+    padding: 16px 64px;
+    width: fit-content;
+    border: 0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section.product-info figure{
+    flex: 1;
+}
+section.product-info figure img{
+    width: 100%;
+}
+main h1.product-name, main h2.section-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+span.sub-titles{
+    font-weight: bold;
+}
+section.banner{
+    display:flex;
+    background-color: #2E68FF;
+    color: white;
+    border-radius: 14px;
+    padding: 0 70px;
+    justify-content: space-between;
+}
+section.banner aside{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 20px;
+    
+}
+section.banner aside p{
+    font-size: 16px;
+}
+section aside button.subscribe{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 32px;
+    width: fit-content;
+    border: 0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+section.banner aside button.subscribe:hover{
+    background-color: hsl(0, 0%, 95%);
+}
+section.banner aside button.subscribe svg{
+    height: 20px;
+}
+section.banner aside h2.banner-title{
+    font-weight: bolder;
+}
+section.banner figure{
+    display: flex;
+    height: 550px;
+}
+img.banner-product{
+    height: 100%;
+}
+footer{
+    padding: 100px 150px;
+    color: #8a8a8a;
+    background-color: #f7f9ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 24px;
+    gap: 56px
+}
+ul li h3{
+    color: black;
+    margin: 0 0 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+section#footer-about{
+    flex: 3;
+}
+nav.footer-nav{
+    flex: 1;
+}
+nav.footer-nav li {
+    margin-bottom: 30px;
+}
+ul.footer-links li a{
+    color:#8a8a8a;
+    text-decoration: none;
+}
+section#footer-contact{
+    max-width: fit-content;
+    
+}
+img.footer-logo{
+    margin-bottom: 14px;
+}
