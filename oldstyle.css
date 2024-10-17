@@ -6,7 +6,7 @@ Azul Claro: #F4F9FF
 */
 @keyframes fadeIn-banner-button {
   0% { background-color: white }
-  100% { background-color: hsl(0, 0%, 96%) }
+  100% { background-color: hsl(0, 0%, 90%) }
 
 }
 *{
