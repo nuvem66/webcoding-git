@@ -166,7 +166,8 @@ section aside button.subscribe{
     align-items: center;
 }
 section.banner aside button.subscribe:hover{
-    background-color: hsl(0, 0%, 95%);
+    animation-name: fadeIn-banner-button;
+    animation-duration: 2s;
 }
 section.banner aside button.subscribe svg{
     height: 20px;
