@@ -5,9 +5,7 @@ Preto: #000000
 Azul Claro: #F4F9FF
 */
 @keyframes fadeIn-banner-button {
-  0% { background-color: white }
-  100% { background-color: gray }
-
+  
 }
 *{
     padding: 0;
@@ -166,8 +164,9 @@ section aside button.subscribe{
     align-items: center;
 }
 section.banner aside button.subscribe:hover{
-    animation-name: fadeIn-banner-button;
-    animation-duration: 2s;
+    background-color: black;
+    color: white;
+    transition: 1s linear;
 }
 section.banner aside button.subscribe svg{
     height: 20px;
