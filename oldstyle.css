@@ -166,7 +166,7 @@ section aside button.subscribe{
 section.banner aside button.subscribe:hover{
     background-color: black;
     color: white;
-    transition: 1s linear;
+    transition: all 1s ease-out allow-discrete;
 }
 section.banner aside button.subscribe svg{
     height: 20px;
